@@ -3,7 +3,7 @@ using HttpRequestHandler.Utils;
 using System.Net.Http.Headers;
 using System.Text;
 
-namespace HttpRequestHandler
+namespace Tipi.Tools
 {
     public class HttpRequestHandler : IDisposable
     {
