@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Authors>tipi(code)</Authors>
+    <Description>This handler is used as a wrapper for the HttpClient Class to make it easier to interact with and reduce the amount of code needed.</Description>
+    <PackageProjectUrl>docs.codingtipi.com</PackageProjectUrl>
+    <Copyright>MIT</Copyright>
+    <PackageIcon>tipi.png</PackageIcon>
+    <RepositoryUrl>https://github.com/TipiCode/http-request-handler</RepositoryUrl>
+    <PackageTags>c#;http;api;handler</PackageTags>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <FileVersion>1.0.0</FileVersion>
+    <Version>1.0.0</Version>
+    <PackageId>Tipi.Tools.$(AssemblyName)</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="Assets\tipi.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
