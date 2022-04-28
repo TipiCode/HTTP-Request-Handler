@@ -20,3 +20,8 @@ Before starting please refer to the official documentation for this toolkit clas
 ### 📌 Get Started
 To start developing this website you will need a few setups to go through in order to run as intended. 
 In order to run this project you will need the SDK for [.NET Core 6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
+
+<h1></h1>
+
+### ⬇️ Releases
+- [NuGet](https://www.nuget.org/packages/Tipi.Tools.HttpRequestHandler)
