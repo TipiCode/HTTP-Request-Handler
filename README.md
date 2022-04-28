@@ -7,8 +7,8 @@
 This handler is part of a series of Toolkits developed to interface with ASP.NET Core classes in order to reduce codebase.
 <h1></h1>
 
-##### Related Projects
-- 
+##### Other Tipi Tools
+- [Recurrente](https://github.com/TipiCode/recurrente)
 
 <h1></h1>
 
