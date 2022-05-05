@@ -1,4 +1,4 @@
-﻿namespace HttpRequestHandler.Utils
+﻿namespace Tipi.Tools.Http.Utils
 {
     public class HttpMethods
     {

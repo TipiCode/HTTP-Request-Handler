@@ -1,12 +1,13 @@
-﻿using HttpRequestHandler.Responses;
-using HttpRequestHandler.Utils;
+﻿using Tipi.Tools.Http.Responses;
+using Tipi.Tools.Http.Utils;
 using System.Net.Http.Headers;
 using System.Text;
 
-namespace Tipi.Tools
+namespace Tipi.Tools.Http
 {
     /// <summary>
-    /// Class <c>HttpRequestHandler</c> serves as a wrapper for the class <c>HttpClient</c>.
+    /// Class <c>HttpRequestHandler</c> serves as a wrapper for the class <c>HttpClient</c>,
+    /// <see href="https://docs.codingtipi.com/docs/toolkit/http-request-handler">See More</see>
     /// </summary>
     /// <remarks>
     /// Removes unessesary code when working with Http Requests.
@@ -19,25 +20,37 @@ namespace Tipi.Tools
         private StringContent? _content;
         #endregion
         #region Constructors
-        /// <summary>This constructor initializes the new Default <c>HttpRequestHandler</c>.</summary>
+        /// <summary>
+        /// This constructor initializes the new Default <c>HttpRequestHandler</c>, 
+        /// <see href="https://docs.codingtipi.com/docs/toolkit/http-request-handler/ctors#main">See More</see>
+        /// </summary>
         public HttpRequestHandler()
         {
             _client = new HttpClient();
         }
-        /// <summary>This constructor initializes a new <c>HttpRequestHandler</c> with a Bearer Token auth flow.</summary>
+        /// <summary>
+        /// This constructor initializes a new <c>HttpRequestHandler</c> with a Bearer Token auth flow, 
+        /// <see href="https://docs.codingtipi.com/docs/toolkit/http-request-handler/ctors#string">See More</see>
+        /// </summary>
         /// <param name="bearerToken">Bearer Token.</param>
         public HttpRequestHandler(string bearerToken) : this()
         {
             _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", bearerToken);
         }
-        /// <summary>This constructor initializes a new <c>HttpRequestHandler</c> with custom headers.</summary>
+        /// <summary>
+        /// This constructor initializes a new <c>HttpRequestHandler</c> with custom headers, 
+        /// <see href="https://docs.codingtipi.com/docs/toolkit/http-request-handler/ctors#dictionary">See More</see>
+        /// </summary>
         /// <param name="headers">Dictionary representing Key and Value Headers.</param>
         public HttpRequestHandler(Dictionary<string, string> headers) : this()
         {
             foreach (var header in headers)
                 _client.DefaultRequestHeaders.Add(header.Key, header.Value);
         }
-        /// <summary>This constructor initializes a new <c>HttpRequestHandler</c> with a Bearer Token auth flow and custom headers.</summary>
+        /// <summary>
+        /// This constructor initializes a new <c>HttpRequestHandler</c> with a Bearer Token auth flow and custom headers, 
+        /// <see href="https://docs.codingtipi.com/docs/toolkit/http-request-handler/ctors#string-dictionary">See More</see>
+        /// </summary>
         /// <param name="bearerToken">Bearer Token.</param>
         /// <param name="headers">Dictionary representing Key and Value Headers.</param>
         public HttpRequestHandler(string bearerToken, Dictionary<string, string> headers) : this()

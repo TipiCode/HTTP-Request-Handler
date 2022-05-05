@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace HttpRequestHandler.Responses
+namespace Tipi.Tools.Http.Responses
 {
     /// <summary>
     /// Class <c>HttpResponse</c> serves as a response for the <c>HttpRequestHandler</c> class.

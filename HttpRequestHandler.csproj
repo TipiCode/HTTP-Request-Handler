@@ -20,6 +20,8 @@
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <NeutralLanguage>en</NeutralLanguage>
     <PackageReleaseNotes>First release of the class library</PackageReleaseNotes>
+    <AssemblyName>Tipi.Tools.Http</AssemblyName>
+    <RootNamespace>Tipi.Tools.Http</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
