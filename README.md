@@ -1,5 +1,5 @@
 <h1>
-  <img width="200" src="https://skyloft.sfo3.cdn.digitaloceanspaces.com/Repos/tipi.gif" alt="Tipi Logo">
+  <img src="https://skyloft.sfo3.cdn.digitaloceanspaces.com/nuget/toolkit-banner.png" alt="Tipi Logo">
 </h1>
 
 [![GitHub license](https://img.shields.io/github/license/TipiCode/http-request-handler.svg)](https://github.com/TipiCode/http-request-handler/blob/master/LICENSE)
@@ -18,6 +18,7 @@ Before starting please refer to the official documentation for this toolkit clas
 
 ### ⚒️ Other Tipi Tools
 - [Recurrente](https://github.com/TipiCode/recurrente)
+- [MvcExtensions](https://github.com/TipiCode/ui-extensions-mvc)
 
 <h1></h1>
 
