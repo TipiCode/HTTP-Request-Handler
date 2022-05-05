@@ -10,16 +10,16 @@
     <Copyright>© tipicode | all rights reserved</Copyright>
     <PackageIcon>Assets\tipi.png</PackageIcon>
     <RepositoryUrl>https://github.com/TipiCode/http-request-handler</RepositoryUrl>
-    <PackageTags>c#;http;api;handler</PackageTags>
-    <AssemblyVersion>1.0.2</AssemblyVersion>
-    <FileVersion>1.0.2</FileVersion>
-    <Version>1.0.2</Version>
+    <PackageTags>c#;Http;API;Handler</PackageTags>
+    <AssemblyVersion>1.0.3</AssemblyVersion>
+    <FileVersion>1.0.3</FileVersion>
+    <Version>1.0.3</Version>
     <PackageId>Tipi.Tools.HttpRequestHandler</PackageId>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <NeutralLanguage>en</NeutralLanguage>
-    <PackageReleaseNotes>Added comments and URL to the official documentation</PackageReleaseNotes>
+    <PackageReleaseNotes>Added comments and URL to the official documentation.</PackageReleaseNotes>
     <AssemblyName>Tipi.Tools.Http</AssemblyName>
     <RootNamespace>Tipi.Tools.Http</RootNamespace>
     <Product>HttpRequestHandler</Product>
