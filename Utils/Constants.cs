@@ -1,6 +1,6 @@
 ﻿namespace Tipi.Tools.Http.Utils
 {
-    public class HttpMethods
+    internal class HttpMethods
     {
         public const string Get = "GET";
         public const string Post = "POST";

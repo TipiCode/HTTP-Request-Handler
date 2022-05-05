@@ -22,7 +22,7 @@ namespace Tipi.Tools.Http
         #region Constructors
         /// <summary>
         /// This constructor initializes the new Default <c>HttpRequestHandler</c>, 
-        /// <see href="https://docs.codingtipi.com/docs/toolkit/http-request-handler/ctors#main">See More</see>
+        /// <see href="https://docs.codingtipi.com/docs/toolkit/http-request-handler/ctors#main">See More</see>.
         /// </summary>
         public HttpRequestHandler()
         {
@@ -30,7 +30,7 @@ namespace Tipi.Tools.Http
         }
         /// <summary>
         /// This constructor initializes a new <c>HttpRequestHandler</c> with a Bearer Token auth flow, 
-        /// <see href="https://docs.codingtipi.com/docs/toolkit/http-request-handler/ctors#string">See More</see>
+        /// <see href="https://docs.codingtipi.com/docs/toolkit/http-request-handler/ctors#string">See More</see>.
         /// </summary>
         /// <param name="bearerToken">Bearer Token.</param>
         public HttpRequestHandler(string bearerToken) : this()
@@ -39,7 +39,7 @@ namespace Tipi.Tools.Http
         }
         /// <summary>
         /// This constructor initializes a new <c>HttpRequestHandler</c> with custom headers, 
-        /// <see href="https://docs.codingtipi.com/docs/toolkit/http-request-handler/ctors#dictionary">See More</see>
+        /// <see href="https://docs.codingtipi.com/docs/toolkit/http-request-handler/ctors#dictionary">See More</see>.
         /// </summary>
         /// <param name="headers">Dictionary representing Key and Value Headers.</param>
         public HttpRequestHandler(Dictionary<string, string> headers) : this()
@@ -49,7 +49,7 @@ namespace Tipi.Tools.Http
         }
         /// <summary>
         /// This constructor initializes a new <c>HttpRequestHandler</c> with a Bearer Token auth flow and custom headers, 
-        /// <see href="https://docs.codingtipi.com/docs/toolkit/http-request-handler/ctors#string-dictionary">See More</see>
+        /// <see href="https://docs.codingtipi.com/docs/toolkit/http-request-handler/ctors#string-dictionary">See More</see>.
         /// </summary>
         /// <param name="bearerToken">Bearer Token.</param>
         /// <param name="headers">Dictionary representing Key and Value Headers.</param>
@@ -63,7 +63,8 @@ namespace Tipi.Tools.Http
         #endregion
         #region Public Methods
         /// <summary>
-        /// This method executes an HTTP Request.
+        /// This method executes an HTTP Request, 
+        /// <see href="https://docs.codingtipi.com/docs/toolkit/http-request-handler/methods">See More</see>.
         /// </summary>
         /// <remarks>
         /// Executed the provided HTTP Verb to the provided Endpoint.
@@ -72,7 +73,7 @@ namespace Tipi.Tools.Http
         /// <param name="endpoint">Endpoint URL.</param>
         /// <param name="body">String Json object, this field is not required.</param>
         /// <returns>
-        /// Returns an object containg the HTTP Response and a string containing the Body of the response
+        /// Returns an <c>HttpRequestResponse</c> object containg the HTTP Response and a string containing the Body of the response
         /// </returns>
         public async Task<HttpResponse> ExecuteAsync(string method, string endpoint, string? body = null)
         {
@@ -102,7 +103,8 @@ namespace Tipi.Tools.Http
             };
         }
         /// <summary>
-        /// Diposes the <c>HttpRequestHandler</c>.
+        /// Diposes the <c>HttpRequestHandler</c>, 
+        /// <see href="https://docs.codingtipi.com/docs/toolkit/http-request-handler/methods#dispose">See More</see>.
         /// </summary>
         public void Dispose()
         {
