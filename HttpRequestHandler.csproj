@@ -23,6 +23,7 @@
     <AssemblyName>Tipi.Tools.Http</AssemblyName>
     <RootNamespace>Tipi.Tools.Http</RootNamespace>
     <Product>HttpRequestHandler</Product>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
