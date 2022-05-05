@@ -5,23 +5,24 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Authors>tipi(code)</Authors>
-    <Description>This handler is used as a wrapper for the HttpClient Class to make it easier to interact with and reduce the amount of code needed.</Description>
-    <PackageProjectUrl>https://docs.codingtipi.com</PackageProjectUrl>
-    <Copyright>tipicode all rights reserved</Copyright>
+    <Description>This handler is used as a wrapper for the HttpClient Class making it easier to interact with by also reducing the code needed.</Description>
+    <PackageProjectUrl>https://docs.codingtipi.com/docs/toolkit/http-request-handler/</PackageProjectUrl>
+    <Copyright>© tipicode | all rights reserved</Copyright>
     <PackageIcon>Assets\tipi.png</PackageIcon>
     <RepositoryUrl>https://github.com/TipiCode/http-request-handler</RepositoryUrl>
     <PackageTags>c#;http;api;handler</PackageTags>
-    <AssemblyVersion>1.0.1</AssemblyVersion>
-    <FileVersion>1.0.1</FileVersion>
-    <Version>1.0.1</Version>
-    <PackageId>Tipi.Tools.$(AssemblyName)</PackageId>
+    <AssemblyVersion>1.0.2</AssemblyVersion>
+    <FileVersion>1.0.2</FileVersion>
+    <Version>1.0.2</Version>
+    <PackageId>Tipi.Tools.HttpRequestHandler</PackageId>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <NeutralLanguage>en</NeutralLanguage>
-    <PackageReleaseNotes>First release of the class library</PackageReleaseNotes>
+    <PackageReleaseNotes>Added comments and URL to the official documentation</PackageReleaseNotes>
     <AssemblyName>Tipi.Tools.Http</AssemblyName>
     <RootNamespace>Tipi.Tools.Http</RootNamespace>
+    <Product>HttpRequestHandler</Product>
   </PropertyGroup>
 
   <ItemGroup>
