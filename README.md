@@ -19,6 +19,7 @@ Before starting please refer to the official documentation for this toolkit clas
 ### ⚒️ Other Tipi Tools
 - [Recurrente](https://github.com/TipiCode/recurrente)
 - [MvcExtensions](https://github.com/TipiCode/ui-extensions-mvc)
+- [Culqi](https://github.com/TipiCode/culqi)
 
 <h1></h1>
 
