@@ -10,6 +10,7 @@
 
 
 # Acerca del proyecto
+Este proyecto se enfoca en abstraer y facilitar la interacción con la clase HTTPClient de .NET, la librería busca abstraer en un solo método similar al Fetch API de Javascript. Puedes leer la documentacion específica para esta librería en el siguiente ![link](https://docs.codingtipi.com/docs/toolkit/http-request-handler).
 
 Esta librería es parte de una serie de librerías que facilitan el uso de clases de .NET , como proyecto buscamos crear y mantener librerías que sean útiles para facilitar desarrollo en .NET nuestro principal enfoque es facilitar y abstraer código difícil de entender, de esta manera buscamos abrir más posibilidades a muchos más desarrolladores de .NET, todas estas librerías serán soportadas por el momento en versiones LTS de .NET Core. Gracias por tomarte el tiempo de leer nuestro proyecto, te invitamos a que contribuyas y utilices esta librería y esperemos te ayude en tus proyectos.
 
