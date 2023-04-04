@@ -72,7 +72,7 @@ Utilizando Package Manager
 # ¿Tienes alguna duda? 
 Si tienes alguna duda puedes comunicarte con nosotros, trataremos de solucionar tus preguntas lo más pronto posible, puedes escribirnos al siguiente correo electrónico con el tema Tipi Tool - HTTP Request Handler. O bien nos puedes contactar por cualquiera de nuestras redes sociales.
 
-- Correo : ![root@codingtipi.com](mailto:root@codingtipi.com?subject=Tipi%20Tool%20-%20HTTP%20Request%20Handler)
+- Correo : <a href="mailto:root@codingtipi.com?subject=Tipi%20Tool%20-%20HTTP%20Request%20Handler" target="_blank">root@codingtipi.com</a>
 - Twitter : ![@tipi_code](https://twitter.com/tipi_code)
 
 # ¿Como contribuir?
