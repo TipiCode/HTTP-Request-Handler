@@ -6,11 +6,11 @@ using System.Text;
 namespace Tipi.Tools.Http
 {
     /// <summary>
-    /// Class <c>HttpRequestHandler</c> serves as a wrapper for the class <c>HttpClient</c>,
+    ///     Class <c>HttpRequestHandler</c> serves as a wrapper for the class <c>HttpClient</c>,
     /// <see href="https://docs.codingtipi.com/docs/toolkit/http-request-handler">See More</see>
     /// </summary>
     /// <remarks>
-    /// Removes unessesary code when working with Http Requests.
+    ///     Removes unessesary code when working with Http Requests.
     /// </remarks>
     public class HttpRequestHandler : IDisposable
     {
