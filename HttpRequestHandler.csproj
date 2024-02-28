@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Authors>tipi(code)</Authors>
@@ -13,7 +13,7 @@
     <PackageTags>c#;Http;API;Handler</PackageTags>
     <AssemblyVersion>1.0.3</AssemblyVersion>
     <FileVersion>1.0.3</FileVersion>
-    <Version>1.0.3</Version>
+    <Version>8.0.0</Version>
     <PackageId>Tipi.Tools.HttpRequestHandler</PackageId>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
